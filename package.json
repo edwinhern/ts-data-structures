@@ -1,7 +1,7 @@
 {
-  "name": "data-structures-typescript",
+  "name": "ts-data-structures",
   "version": "1.0.0",
-  "description": "Used to learn data structures in TypeScript",
+  "description": "A personal project to learn and implement various data structures in TypeScript by creating classes and writing test files to validate them.",
   "private": true,
   "scripts": {
     "clean": "rimraf coverage",
