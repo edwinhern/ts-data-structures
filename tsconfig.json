@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["vitest/globals"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
