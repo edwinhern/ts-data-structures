@@ -2,6 +2,9 @@
   📚 Data Structures in TypeScript
 </h1>
 
+[![Check Style](https://github.com/edwinhern/ts-data-structures/actions/workflows/check-style.yml/badge.svg?branch=main)](https://github.com/edwinhern/ts-data-structures/actions/workflows/check-style.yml)
+[![Test](https://github.com/edwinhern/ts-data-structures/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/edwinhern/ts-data-structures/actions/workflows/test.yml)
+
 🎉 Welcome to the documentation for the Data Structures in TypeScript project.
 
 This project is my personal learning journey to implement various data structures in TypeScript by creating classes for each data structure and writing test files to validate them.
