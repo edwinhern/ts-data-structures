@@ -4,6 +4,7 @@
     "module": "CommonJS",
     "strict": true,
     "forceConsistentCasingInFileNames": true,
+    "paths": { "@/*": ["./src/*"] },
     "types": ["vitest/globals"]
   },
   "include": ["src"],

@@ -1,4 +1,4 @@
-import { DynamicArray } from './array';
+import { DynamicArray } from '@/dynamicArray';
 
 describe('DynamicArray', () => {
   let dynamicArray: DynamicArray<number>;
@@ -111,13 +111,12 @@ describe('DynamicArray', () => {
 
   describe('print', () => {
     it('should print details of the array', () => {
-      const consoleSpy = vi.spyOn(console, 'log');
+      const consoleSpy = vi.spyOn(console, 'log').mockImplementation(() => {});
 
       dynamicArray.push(1);
       dynamicArray.push(2);
       dynamicArray.print();
       expect(consoleSpy).toHaveBeenCalledWith('Array: {"0":1,"1":2}, Array length: 2');
-      consoleSpy.mockRestore();
     });
   });
 });
