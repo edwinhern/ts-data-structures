@@ -10,7 +10,7 @@ class QNode<T> {
   }
 }
 
-export class Queue<T> {
+export class LinkedListQueue<T> {
   public length: number;
   private frontNode: QNode<T> | null;
   private rearNode: QNode<T> | null;

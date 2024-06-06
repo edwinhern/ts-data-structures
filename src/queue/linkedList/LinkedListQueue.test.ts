@@ -1,10 +1,10 @@
-import { Queue } from '@/queue';
+import { LinkedListQueue } from '@/queue/linkedList';
 
 describe('Queue', () => {
-  let queue: Queue<number>;
+  let queue: LinkedListQueue<number>;
 
   beforeEach(() => {
-    queue = new Queue<number>();
+    queue = new LinkedListQueue<number>();
   });
 
   describe('push', () => {

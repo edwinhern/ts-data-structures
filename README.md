@@ -1,6 +1,4 @@
-<h1 align="center">
-  📚 Data Structures in TypeScript
-</h1>
+# 📚 Data Structures in TypeScript
 
 [![Check Style](https://github.com/edwinhern/ts-data-structures/actions/workflows/check-style.yml/badge.svg?branch=main)](https://github.com/edwinhern/ts-data-structures/actions/workflows/check-style.yml)
 [![Test](https://github.com/edwinhern/ts-data-structures/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/edwinhern/ts-data-structures/actions/workflows/test.yml)
